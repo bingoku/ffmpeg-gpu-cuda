@@ -8,3 +8,8 @@
 Linux: 418.30 or newer
 Windows: 418.81 or newer
 ```
+
+## 构建方法
+```
+docker build -t bingoku/ffmpeg-gpu:cuda-10.1 .
+```
