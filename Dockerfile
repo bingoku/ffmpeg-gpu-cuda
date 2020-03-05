@@ -27,6 +27,9 @@ RUN ldconfig \
     --enable-nvenc \
     --enable-cuda \
     --enable-cuvid \
+    --enable-cuda-sdk \
+    --enable-filter=scale_cuda \
+    --enable-filter=thumbnail_cuda \
     --enable-libnpp \
     --extra-cflags=-Ilocal/include \
     --enable-gpl --enable-version3 \
